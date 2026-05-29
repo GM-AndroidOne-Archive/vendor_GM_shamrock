@@ -1469,6 +1469,10 @@ PRODUCT_COPY_FILES += \
     vendor/GM/shamrock/proprietary/vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so \
     vendor/GM/shamrock/proprietary/vendor/lib64/vendor.qti.hardware.fm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.fm@1.0.so
 
+# for fast charging | thanks to 0xDefton3s
+PRODUCT_COPY_FILES += \
+    vendor/GM/shamrock/proprietary/vendor/bin/hvdcp_opti:$(TARGET_COPY_OUT_VENDOR)/bin/hvdcp_opti
+
 # GPS
 PRODUCT_COPY_FILES += \
     vendor/GM/shamrock/proprietary/vendor/bin/hw/android.hardware.gnss@2.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gnss@2.0-service-qti \
